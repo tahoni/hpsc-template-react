@@ -1,0 +1,6 @@
+@use "./style-font";
+
+/* Font Families */
+$font-family-sans-serif: style-font.$noto-sans-font-family;
+$font-family-monospace: style-font.$noto-code-font-family;
+$headings-font-family: style-font.$noto-sans-display-font-family;

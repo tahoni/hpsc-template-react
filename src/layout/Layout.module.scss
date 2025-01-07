@@ -1,0 +1,42 @@
+.layout {
+  height: 100%;
+  padding: 0 !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  flex: initial;
+}
+
+.footer {
+  flex: initial;
+}
+
+.body {
+  flex: auto;
+}
+
+.logoContainer {
+  flex: initial;
+  align-content: center;
+  padding: 0.75rem;
+}
+
+.logo, .leftLogo, .rightLogo {
+  width: auto;
+  height: 8em;
+}
+
+.leftLogo {
+  float: left;
+}
+
+.rightLogo {
+  float: right;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,20 @@
+@use "style-icons";
+@use "style-theme";
+@use "style-custom";
+
+/* General */
+html, body {
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* Forms */
+.form-control:required {
+  border-left-width: thick;
+}
+
+/* Menus */
+.dropdown-item a, .dropdown-item a:visited, .dropdown-item a:hover, .dropdown-item a:active {
+  text-decoration: none;
+}
