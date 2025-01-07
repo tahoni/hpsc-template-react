@@ -20,6 +20,7 @@ Created the template from the template-react template.<br/>
 
 #### General Code Improvements
 - The `eslint.config.js` file causing errors was deleted.
+- Add some more options to the `tsconfig.json` files.
 
 #### Licence and Documentation
 - Changed the heading of the history file to History.

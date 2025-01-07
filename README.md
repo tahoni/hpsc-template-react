@@ -7,6 +7,7 @@
 - [Structure](#structure)
 - [Technology](#technology)
 - [Instructions](#instructions)
+- [Screenshots](#screenshots)
 - [License](#license)
 - [Author](#author)
 
@@ -183,6 +184,13 @@ before it is published.</br/>
 Packages the library in the `dist` folder to a tarball.<br/>
 Indicates that you don't want npm to make any changes and that it
 should only report what it would have done.
+
+## Screenshots
+
+### Home Page
+![Home Page](./documentation/screenshots/HomePage.png)
+
+[//]: # (TODO: take a screenshot.)
 
 ## License
 Copyright © 2025 Hartbeespoortdam Practical Shooting Club.<br/>
