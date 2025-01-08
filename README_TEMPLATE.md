@@ -1,4 +1,4 @@
-# XXX project
+# HPSC XXX project
 
 ## Table of Contents
 - [Description](#description)
@@ -15,51 +15,64 @@
 A description of the project.
 
 ## Summary
-The XXX project uses modern web technologies
+The HPSC XXX project uses modern web technologies
 to provide an informative and user-friendly platform for members and
 visitors.<br/>
 The primary technologies used in this project include TypeScript, SCSS, and MDX.
 
 ## Repository
 The repository for this project is located at
-[GitHub](https://github.com/tahoni/template-react).
+[GitHub](https://github.com/tahoni/hpsc-template-react).
 
 Feature requests, suggestions for improvements and bugs can be
 logged using the
-project's [Issues](https://github.com/tahoni/template-react/issues) page.
+project's [Issues](https://github.com/tahoni/hpsc-template-react/issues) page.
 
 An overview of the project can be found at
-[https://tahoni.info/projects/template-react](https://www.tahoni.info/projects/template-react).
+[https://tahoni.info/projects/hpsc-template-react](https://www.tahoni.info/projects/hpsc-template-react).
 
 ## Structure
 A high-level structure of the project.
 
 ```text
+├───.github
+│   └───workflows
 ├───documentation
 │   └───screenshots
 ├───public
 │   └───assets
 │       └───images
+│           ├───content
+│           ├───layout
 │           └───logos
 └───src
     ├───assets
     │   ├───fonts
+    │   │   └───icomoon
+    │   │       ├───glyphs
+    │   │       └───license
     │   ├───images
     │   │   ├───icons
     │   │   └───ids
     │   └───stylesheets
     ├───components
-    │   └───NotFound
+    │   ├───NotFound
+    │   └───Title
     ├───constants
+    │   ├───about
+    │   ├───content
+    │   └───images
     ├───content
     │   ├───pages
     │   │   └───Home
     │   └───posts
     ├───layout
     │   ├───Body
+    │   ├───Breakpoints
     │   ├───Content
     │   ├───Footer
     │   └───Header
+    ├───model
     ├───pages
     │   ├───Home
     │   └───NotFound
@@ -171,11 +184,11 @@ should only report what it would have done.
 
 ## Screenshots
 
-### History Page
+### Home Page
 ![Home Page](./documentation/screenshots/HomePage.png)
 
 ## License
-Copyright © 2025 XXX.<br/>
+Copyright © 2025 Hartbeespoortdam Practical Shooting Club.<br/>
 All Rights Reserved.
 
 ## Author

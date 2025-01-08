@@ -1,4 +1,4 @@
-# React template project
+# HPSC React template project
 
 ## Table of Contents
 - [Description](#description)
@@ -7,54 +7,70 @@
 - [Structure](#structure)
 - [Technology](#technology)
 - [Instructions](#instructions)
+- [Screenshots](#screenshots)
 - [License](#license)
 - [Author](#author)
 
 ## Description
-This project is a repository template for React projects.
+This project is a repository template for HPSC React projects.
 
 ## Summary
-The React template project uses modern web technologies
+The HPSC React template project uses modern web technologies
 to provide a useful starting point for my React projects.<br/>
 The primary technologies used in this project include TypeScript, SCSS, and MDX.
 
 ## Repository
 The repository for this project is located at
-[GitHub](https://github.com/tahoni/template-react).
+[GitHub](https://github.com/tahoni/hpsc-template-react).
 
 Feature requests, suggestions for improvements and bugs can be
 logged using the
-project's [Issues](https://github.com/tahoni/template-react/issues) page.
+project's [Issues](https://github.com/tahoni/hpsc-template-react/issues) page.
 
 ## Structure
 A high-level structure of the project.
 
 ```text
+├───.github
+│   └───workflows
 ├───documentation
 │   └───screenshots
 ├───public
 │   └───assets
 │       └───images
+│           ├───content
+│           ├───layout
 │           └───logos
 └───src
     ├───assets
     │   ├───fonts
+    │   │   └───icomoon
+    │   │       ├───glyphs
+    │   │       └───license
     │   ├───images
     │   │   ├───icons
     │   │   └───ids
     │   └───stylesheets
     ├───components
-    │   └───NotFound
+    │   ├───NotFound
+    │   ├───Sidebar
+    │   └───Title
     ├───constants
+    │   ├───about
+    │   ├───content
+    │   └───images
     ├───content
     │   ├───pages
     │   │   └───Home
     │   └───posts
+    │       └───Example
     ├───layout
     │   ├───Body
+    │   ├───Breakpoints
     │   ├───Content
     │   ├───Footer
     │   └───Header
+    ├───model
     ├───pages
     │   ├───Home
     │   └───NotFound
@@ -169,8 +185,16 @@ Packages the library in the `dist` folder to a tarball.<br/>
 Indicates that you don't want npm to make any changes and that it
 should only report what it would have done.
 
+## Screenshots
+
+### Home Page
+![Home Page](./documentation/screenshots/HomePage.png)
+
+[//]: # (TODO: take a screenshot.)
+
 ## License
-This project is licensed under the terms of the _MIT license_.
+Copyright © 2025 Hartbeespoortdam Practical Shooting Club.<br/>
+All Rights Reserved.
 
 ## Author
 **Leoni Lubbinge**

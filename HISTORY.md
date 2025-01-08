@@ -1,45 +1,34 @@
 # React template
-## Change Log
+## History
 
 ### Table of Contents
-- [Version 1.0.1](#version-101---_2025-01-07_)
-- [Version 1.0.0](#version-100---_2025-01-07_)
+- [Version 1.0.0](#version-100---_2025-01-08_)
 
 
-### [Version 1.0.1](https://github.com/tahoni/template-react/releases/tag/version-1.0.1) - _2025-01-07_
-Fixed various problems with the readme file.<br/>
-
-#### Licence and Documentation
-- Added more sections to the change log and release notes.
-- A non-existing bookmark was removed from the readme file.
-- Fixed formatting of headings in the markdown files.
-
-#### Changes by
-@tahoni
-
-### [Version 1.0.0](https://github.com/tahoni/template-react/releases/tag/version-1.0.0) - _2025-01-07_
-Created the first version of the template using React 19.<br/>
+### [Version 1.0.0](https://github.com/tahoni/template-react/releases/tag/version-1.0.0) - _2025-01-08_
+Created the template from the template-react template.<br/>
 
 #### Enhancements and Updates
-- Created the basic directory structure.
-- Created the template README file.
-- Created the template for the CHANGELOG and RELEASE_NOTES files.
-- Created the README file for the project.
-- Created the shared components and pages.
-- Created the general stylesheets.
+- Created a `/home` route.
+- Added a Breakpoint component.
+- Added images specific to HPSC.
+- Added styles specific to HPSC.
+- Added constants related to HPSC.
+- Added components related to HPSC.
+- Added constants and model classes related to HPSC.
+- Created a layout for use on any HPSC website.
 
 #### General Code Improvements
-- Upgraded to React 19.
+- The `eslint.config.js` file causing errors was deleted.
+- Added some more options to the `tsconfig.json` files.
+
+#### Licence and Documentation
+- Changed the heading of the history file to History.
+- Improved the directory structure in the readme file.
 
 #### Dependencies
-- Added the `vitest` dependency.
-- Added the `react-router` dependency.
-- Added the `bootstrap` and `react-bootstrap` dependencies.
-- Added the `sweetalert2` dependency.
-- Added the `sanitize-html` dependency.
-- Added the `@fortawesome` dependencies.
-- Added the `@mdx-js` dependencies.
-- Added the `@rjsf` dependencies.
+- Added the `@react-google-maps/api` dependency.
+- Added the `@tahoni/tahoni-lib-react` dependency.
 
 #### Changes by
 @tahoni
