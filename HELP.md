@@ -1,4 +1,4 @@
-# HPSC XXX project
+# HPSC React template project
 
 ## Table of Contents
 - [Description](#description)
@@ -12,12 +12,11 @@
 - [Author](#author)
 
 ## Description
-A description of the project.
+This project is a repository template for HPSC React projects.
 
 ## Summary
-The HPSC XXX project uses modern web technologies
-to provide an informative and user-friendly platform for members and
-visitors.<br/>
+The HPSC React template project uses modern web technologies
+to provide a useful starting point for my React projects.<br/>
 The primary technologies used in this project include TypeScript, SCSS, and MDX.
 
 ## Repository
@@ -27,9 +26,6 @@ The repository for this project is located at
 Feature requests, suggestions for improvements and bugs can be
 logged using the
 project's [Issues](https://github.com/tahoni/hpsc-template-react/issues) page.
-
-An overview of the project can be found at
-[https://tahoni.info/projects/hpsc-template-react](https://www.tahoni.info/projects/hpsc-template-react).
 
 ## Structure
 A high-level structure of the project.
@@ -57,6 +53,7 @@ A high-level structure of the project.
     │   └───stylesheets
     ├───components
     │   ├───NotFound
+    │   ├───Sidebar
     │   └───Title
     ├───constants
     │   ├───about
@@ -66,6 +63,7 @@ A high-level structure of the project.
     │   ├───pages
     │   │   └───Home
     │   └───posts
+    │       └───Example
     ├───layout
     │   ├───Body
     │   ├───Breakpoints
@@ -78,6 +76,11 @@ A high-level structure of the project.
     │   └───NotFound
     └───utils
 ```
+
+This is the readme for this project, and is called `HELP.md`.<br/> 
+The readme template for new projects is in `README.md` as is expected.<br/>
+The `CHANGELOG.md` and `RELEASE_NOTES.md` are the templates for new projects.<br/>
+The `HISTORY.md` contains the change log for this project.<br/>
 
 ## Technology
 
@@ -186,6 +189,8 @@ should only report what it would have done.
 
 ### Home Page
 ![Home Page](./documentation/screenshots/HomePage.png)
+
+[//]: # (TODO: take a screenshot.)
 
 ## License
 Copyright © 2025 Hartbeespoortdam Practical Shooting Club.<br/>
