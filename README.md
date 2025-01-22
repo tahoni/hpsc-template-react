@@ -1,4 +1,4 @@
-# HPSC React template project
+# HPSC XXX project
 
 ## Table of Contents
 - [Description](#description)
@@ -12,11 +12,12 @@
 - [Author](#author)
 
 ## Description
-This project is a repository template for HPSC React projects.
+A description of the project.
 
 ## Summary
-The HPSC React template project uses modern web technologies
-to provide a useful starting point for my React projects.<br/>
+The HPSC XXX project uses modern web technologies
+to provide an informative and user-friendly platform for members and
+visitors.<br/>
 The primary technologies used in this project include TypeScript, SCSS, and MDX.
 
 ## Repository
@@ -26,6 +27,9 @@ The repository for this project is located at
 Feature requests, suggestions for improvements and bugs can be
 logged using the
 project's [Issues](https://github.com/tahoni/hpsc-template-react/issues) page.
+
+An overview of the project can be found at
+[https://tahoni.info/projects/hpsc-template-react](https://www.tahoni.info/projects/hpsc-template-react).
 
 ## Structure
 A high-level structure of the project.
@@ -53,7 +57,6 @@ A high-level structure of the project.
     │   └───stylesheets
     ├───components
     │   ├───NotFound
-    │   ├───Sidebar
     │   └───Title
     ├───constants
     │   ├───about
@@ -63,7 +66,6 @@ A high-level structure of the project.
     │   ├───pages
     │   │   └───Home
     │   └───posts
-    │       └───Example
     ├───layout
     │   ├───Body
     │   ├───Breakpoints
@@ -76,11 +78,6 @@ A high-level structure of the project.
     │   └───NotFound
     └───utils
 ```
-
-This is the readme for this project.<br/> 
-The readme template for new projects is in README_TEMPLATE.md.<br/>
-The CHANGELOG.md and RELEASE_NOTES.md are the templates for new projects.<br/>
-The HISTORY.md contains the change log for this project.<br/>
 
 ## Technology
 
@@ -154,7 +151,7 @@ This installs the dependencies.
 #### Environment Variables
 
 The npm key to @tahoni on GitHub needs
-to be set in the ````GITHUB_TOKEN```` environment variable,
+to be set in the ````NPM_TOKEN```` environment variable,
 to load any of my private npm packages.
 
 #### `npm run dev`
@@ -189,8 +186,6 @@ should only report what it would have done.
 
 ### Home Page
 ![Home Page](./documentation/screenshots/HomePage.png)
-
-[//]: # (TODO: take a screenshot.)
 
 ## License
 Copyright © 2025 Hartbeespoortdam Practical Shooting Club.<br/>
