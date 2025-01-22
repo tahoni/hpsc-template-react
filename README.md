@@ -151,7 +151,7 @@ This installs the dependencies.
 #### Environment Variables
 
 The npm key to @tahoni on GitHub needs
-to be set in the ````GITHUB_TOKEN```` environment variable,
+to be set in the ````NPM_TOKEN```` environment variable,
 to load any of my private npm packages.
 
 #### `npm run dev`
