@@ -6,6 +6,17 @@
 - [Version 1.0.0](#version-100---_2025-01-08_)
 
 
+### [Version 1.0.2](https://github.com/tahoni/template-react/releases/tag/version-1.0.2) - _2025-??-??_
+
+#### General Technical Changes
+- A setting was removed from `vite.config.ts` to roll back the changes to build the project with smaller chunks.
+
+#### Dependencies
+- Updated all outdated dependencies.
+
+#### Changes by
+@tahoni
+
 ### [Version 1.0.1](https://github.com/tahoni/template-react/releases/tag/version-1.0.1) - _2025-01-22_
 Renamed the template markdown files.<br/>
 Added more libraries.<br/>
