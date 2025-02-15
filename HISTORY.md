@@ -2,19 +2,26 @@
 ## History
 
 ### Table of Contents
+- [Version 1.0.2](#version-102---_2025--_)
 - [Version 1.0.1](#version-101---_2025-01-22_)
 - [Version 1.0.0](#version-100---_2025-01-08_)
 
 
 ### [Version 1.0.2](https://github.com/tahoni/template-react/releases/tag/version-1.0.2) - _2025-??-??_
+Mitigated a critical severity security vulnerability.<br/>
 
 #### General Technical Changes
 - A setting was removed from `vite.config.ts` to roll back the changes to build the project with smaller chunks.
 
 #### Dependencies
-- Updated all outdated dependencies.
+- Updated the `vitest` dependency to version 3 to mitigate a critical security vulnerability.
+- Updated the `vite` dependency to version 6 to mitigate a moderate security vulnerability.
+- Updated the `esbuild` dependency to mitigate a moderate security vulnerability.
+- Updated the `@tahoni/tahoni-lib-react` dependency.
+- Updated all other outdated dependencies.
 
 #### Changes by
+@dependabot
 @tahoni
 
 ### [Version 1.0.1](https://github.com/tahoni/template-react/releases/tag/version-1.0.1) - _2025-01-22_
@@ -23,6 +30,7 @@ Added more libraries.<br/>
 Improved the building settings.<br/>
 
 #### General Code Improvements
+- Include `index.css` from `tahoni-lib-react`, not `styles.css`.
 - The npm token's name was changed to `NPM_TOKEN` for possible use in GitHub Actions.
 
 #### Licence and Documentation
