@@ -10,6 +10,9 @@
 ### [Version 1.0.2](https://github.com/tahoni/template-react/releases/tag/version-1.0.2) - _2025-??-??_
 Mitigated a critical severity security vulnerability.<br/>
 
+#### General Code Improvements
+- Include `index.css` from `tahoni-lib-react`, not `styles.css`.
+
 #### General Technical Changes
 - A setting was removed from `vite.config.ts` to roll back the changes to build the project with smaller chunks.
 
@@ -30,7 +33,6 @@ Added more libraries.<br/>
 Improved the building settings.<br/>
 
 #### General Code Improvements
-- Include `index.css` from `tahoni-lib-react`, not `styles.css`.
 - The npm token's name was changed to `NPM_TOKEN` for possible use in GitHub Actions.
 
 #### Licence and Documentation
