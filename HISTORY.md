@@ -11,7 +11,7 @@
 Mitigated a critical severity security vulnerability.<br/>
 
 #### General Code Improvements
-- Include `index.css` from `tahoni-lib-react`, not `styles.css`.
+- Included `index.css` from `tahoni-lib-react`, not `styles.css`.
 
 #### General Technical Changes
 - A setting was removed from `vite.config.ts` to roll back the changes to build the project with smaller chunks.
